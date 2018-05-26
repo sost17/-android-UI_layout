@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lable1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dip"
+        android:layout_y="10dip"
+        android:text="name" />
+
+    <EditText
+        android:id="@+id/entry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="40dip"
+        android:layout_below="@+id/lable1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="260dip"
+        android:layout_y="100dip"
+        android:width="70dip"
+        android:text="Cancle"
+        android:layout_below="@+id/entry"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="190dip"
+        android:layout_y="100dip"
+        android:width="70dip"
+        android:text="OK"
+        android:layout_below="@+id/entry"
+        android:layout_toLeftOf="@+id/test2"
+        android:layout_toStartOf="@+id/test2" />
+
+</RelativeLayout>
